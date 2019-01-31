@@ -9,7 +9,7 @@ const checkKeyCode = (event) => {
   // check what they pressed
   if (whatTheyPressed === code[tracker]) {
     tracker += 1
-  } else {
+  } else if() else {
     tracker = 0
   }
   
