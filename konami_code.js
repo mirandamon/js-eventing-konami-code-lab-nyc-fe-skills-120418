@@ -8,9 +8,7 @@ const checkKeyCode = (event) => {
   if (whatTheyPressed === code[tracker]) {
     tracker += 1
   } else if (tracker === 10) {
-    
-  }
-  alert('You won, yay!')
+      alert('You won, yay!')
   } else {
     tracker = 0
   }
