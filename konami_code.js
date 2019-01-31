@@ -5,12 +5,15 @@ let tracker = 0
 const checkKeyCode = (event) => {
   // we need to know where we are in the sequence
   const whatTheyPressed = event.keyCode
+  
+  // check what they pressed
   if (whatTheyPressed === code[tracker]) {
     tracker += 1
   } else {
     tracker = 0
   }
   
+  // are we done?
   if (tracker === 10) {
     alert('You won, yay!')
   }
