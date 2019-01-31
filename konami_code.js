@@ -7,10 +7,13 @@ const checkKeyCode = (event) => {
   const whatTheyPressed = event.keyCode
   if (whatTheyPressed === code[tracker]) {
     tracker += 1
+  } else if (tracker === 10) {
+    
+  }
+  alert('You won, yay!')
   } else {
     tracker = 0
   }
-  alert('You won, yay!')
   console.log(tracker)
 }
 
