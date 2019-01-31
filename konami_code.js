@@ -9,16 +9,12 @@ const checkKeyCode = (event) => {
   // check what they pressed
   if (whatTheyPressed === code[tracker]) {
     tracker += 1
-  } else if () {
-    
   } else {
     tracker = 0
   }
   
   // are we done?
-  if (tracker === 10) {
-    alert('You won, yay!')
-  }
+  
   console.log(tracker)
 }
 
