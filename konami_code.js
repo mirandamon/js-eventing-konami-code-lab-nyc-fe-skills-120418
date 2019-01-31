@@ -14,6 +14,9 @@ const checkKeyCode = (event) => {
   }
   
   // are we done?
+  if (tracker === 10) {
+    alert('You won, yay!')
+  } 
   
   console.log(tracker)
 }
