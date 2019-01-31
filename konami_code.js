@@ -10,6 +10,7 @@ const checkKeyCode = (event) => {
   } else {
     tracker = 0
   }
+  alert('You won, yay!')
   console.log(tracker)
 }
 
